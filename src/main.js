@@ -3,14 +3,18 @@ import Vue from "vue";
 import "./lib/mui/css/mui.min.css";
 import "./lib/mui/css/icons-extra.css";
 //导入mint-ui相关
-import { Header, Button } from "mint-ui";
+import { Header, Button,Swipe, SwipeItem} from "mint-ui";
 Vue.component(Header.name, Header);
 Vue.component(Button.name, Button);
+Vue.component(Swipe.name, Swipe);
+Vue.component(SwipeItem.name, SwipeItem);
 //导入router
 import VueRouter from "vue-router";
 Vue.use(VueRouter);
 import router from "./router.js";
-
+//导入vue-resource
+import VueResource from 'vue-resource'
+Vue.use(VueResource)
 import App from "./App.vue";
 
 var vm = new Vue({

@@ -1,15 +1,14 @@
 <template>
-    <div>
-        <h3></h3>
-    </div>
+  <div>
+    <h3>home</h3>
+  </div>
 </template>
 <script>
 export default {
-  data () {
-    return {
-    };
+  data() {
+    return {};
   }
-}
+};
 </script>
 <style lang="scss" scoped>
 </style>

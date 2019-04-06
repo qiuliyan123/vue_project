@@ -3,7 +3,7 @@
         <!-- 头部 -->
         <mt-header fixed title="黑马程序员"></mt-header>
         <!-- 主体部分 -->
-        <h3>主体部分</h3>
+        <router-view></router-view>
         <!-- 底部 -->
         <nav class="mui-bar mui-bar-tab">
 			<router-link class="mui-tab-item mui-active" to="/home">
